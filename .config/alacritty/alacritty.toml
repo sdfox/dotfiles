@@ -1,0 +1,15 @@
+[window]
+opacity = 0.8
+decorations = "none"
+
+[font]
+size = 18
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[terminal]
+
+[terminal.shell]
+program = "/usr/bin/fish"
