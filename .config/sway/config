@@ -244,4 +244,6 @@ client.focused #4c7899 #285577 #ffffff #2e9ef4 #a7c080
 client.unfocused #333333 #222222 #888888 #285577 #285577
 client.focused_inactive #333333 #222222 #888888 #285577 #285577
 
+exec_always fcitx5 -d --replace
+
 include /etc/sway/config.d/*
