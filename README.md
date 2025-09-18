@@ -1,4 +1,4 @@
-My dotfiles for arch linux desktop environment.
+dotfiles for my arch linux desktop environment.
 
 dependencys:
 
