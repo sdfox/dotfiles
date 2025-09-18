@@ -6,7 +6,7 @@
     "margin": 0,
     "modules-left": ["sway/workspaces", "sway/mode", "custom/weather", "custom/quote"],
         "modules-center": [],                                                                           //battery   //disk     // uptime      //updates        // systray
-    "modules-right": ["clock","pulseaudio", "backlight", "network", "cpu", "memory", "temperature", "battery", "disk", "custom/uptime", "custom/updates", "tray"],
+    "modules-right": ["clock", "pulseaudio", "backlight", "network", "cpu", "memory", "temperature", "battery", "disk", "custom/uptime", "custom/updates", "tray"],
 
 
     "sway/workspaces": {
@@ -66,7 +66,7 @@
         "format": "󰚰 {}",
         "exec": "checkupdates | wc -l",
         "interval": 3600,
-        "on-click": "alacritty -e sudo pacman -Syu",
+        "on-click": "foot -e sudo pacman -Syu",
         "signal": 8
     },
 
@@ -116,20 +116,20 @@
         "format": "󰘚 {usage}%",
         "tooltip": true,
         "interval": 1,
-        "on-click": "alacritty -e htop"
+        "on-click": "foot -e htop"
     },
 
     "memory": {
         "format": "󰍛 {}%",
         "interval": 1,
-        "on-click": "alacritty -e htop"
+        "on-click": "foot -e htop"
     },
 
     "temperature": {
         "critical-threshold": 80,
         "format": "{icon} {temperatureC}°C",
         "format-icons": ["󱃃", "󰔏", "󱃂"],
-        "on-click": "alacritty -e s-tui"
+        "on-click": "foot -e s-tui"
     },
 
     "battery": {
@@ -152,7 +152,7 @@
         "format-disconnected": "󰖪 Disconnected",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "tooltip-format": "{ifname}: {ipaddr}",
-        "on-click": "alacritty -e nmtui"
+        "on-click": "foot -e nmtui"
     },
 
     "pulseaudio": {
@@ -186,7 +186,7 @@
         "interval": 30,
         "format": "󰋊 {percentage_used}%",
         "path": "/",
-        "on-click": "alacritty -e gdu /"
+        "on-click": "foot -e gdu /"
     },
 
     "tray": {
