@@ -14,6 +14,7 @@ modes: "window,drun,run,ssh,combi,filebrowser";
 /*	on-menu-error: ;*/
 /*	on-screenshot-taken: ;*/
 /*	terminal: "rofi-sensible-terminal";*/
+terminal: "foot";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
