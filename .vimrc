@@ -1,17 +1,30 @@
-" syntax highlight
+" highlight
 syntax on
 
-" show line number
+" line number
 set number
 
-" space & tab & indentation
+" indentant and tab
 set autoindent
 set smartindent
 set tabstop=2
 set shiftwidth=2
-set softtabstop=2
 set expandtab
+autocmd FileType make setlocal tabstop=4 shiftwidth=4 noexpandtab
 
-" search
+" highlight search
 set hlsearch
 set incsearch
+
+" viminfo backup
+set viminfo='100,<50,s10,h
+augroup restore_cursor
+  autocmd!
+  autocmd BufReadPost *
+        \ if line("'\"") > 1 && line("'\"") <= line("$") |
+        \   exe "normal! g`\"" |
+        \ endif
+augroup END
+set viminfofile=~/.vim/viminfo
+
+set nocompatible
