@@ -1,0 +1,14 @@
+.config/chromium
+.config/coq
+.config/dconf
+.config/fcitx*
+.config/go
+.config/htop
+.config/hyfetch*
+.config/ibus
+.config/neofetch
+.config/pulse
+.config/QQ
+.config/systemd
+
+*.bak
