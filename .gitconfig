@@ -3,3 +3,5 @@
 	email = sdfox05@gmail.com
 [core]
 	editor = vim
+[init]
+	defaultBranch = main
