@@ -21,7 +21,7 @@ set $menu rofi
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ../../Downloads/wallhaven-3q9qky_1920x1080.png fill
+output * bg ../assets/wallhaven-d8pyvo_3840x2160.png fill
 #
 # Example configuration:
 #
